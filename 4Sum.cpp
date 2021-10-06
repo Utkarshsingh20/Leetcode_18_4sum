@@ -27,6 +27,7 @@ public:
                                 end--;
                             }
                         }
+                        //olpokok
                         else if( nums[start]+nums[end]>sum){
                             end--;
                         }

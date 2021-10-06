@@ -4,13 +4,7 @@ public:
         vector<vector<int>> ans;
         int n= nums.size();
         sort(nums.begin(),nums.end());
-       /* if(n==4){
-            if(nums[0]+nums[1]+nums[2]+nums[3]==target){
-                ans.push_back({nums[0],nums[1],nums[2],nums[3]});
-            }
-            return ans;
-        }
-        */
+       
         for(int i=0;i<n-3;i++){
             if(i>0 && nums[i]==nums[i-1]){
                 continue;

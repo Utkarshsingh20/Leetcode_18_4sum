@@ -35,7 +35,7 @@ public:
                     }
                 }
             
-            //frg
+            //fringing effect
         }
         return ans;
     }

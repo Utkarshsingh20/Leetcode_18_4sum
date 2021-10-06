@@ -9,6 +9,7 @@ public:
             if(i>0 && nums[i]==nums[i-1]){
                 continue;
             }
+            // vector is used
             for(int j=i+1;j<n-2;j++){
                 if(j>i+1 && nums[j]==nums[j-1]){
                     continue;
